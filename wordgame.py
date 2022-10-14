@@ -15,7 +15,7 @@ previous =''
 correct =''
 while(turns<wrongguess):
     print("\nyou have ", (wrongguess - turns), "attempts left")
-    print("Enter a char(lowercase) : ", end='')
+    print("Enter a character(lowercase) : ", end='')
     guess=input()
     if(guess not in word):
         if(guess not in previous):
